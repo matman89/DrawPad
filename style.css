@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*
+{
+  border: solid 1px white;  
+}
+
+#Master
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgb(64, 252, 236),rgb(64, 145, 252));
+}
+
+#MasterCenter
+{   
+  width: 450px;
+  height: 600px;
+  flex-shrink: 0;
+}
+
+#Title
+{
+  display: flex;
+  height: 85px;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-family: Roboto;
+}
+
+#Box2
+{
+  display: flex;
+  height: 85px;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: Roboto;
+  padding: 10px;
+}
