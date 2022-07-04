@@ -3,7 +3,7 @@
 
 *
 {
-  border: solid white 2px;
+  border: solid black 1px;
 }
 
 body
@@ -89,15 +89,23 @@ Button
   display: flex;
   height: 480px;
   Width:  480px;
-  justify-content: center;
-  align-items: center;
   font-size: 20px;
   font-family: Roboto;
   background-color: white;
+  flex-direction: column;
 }
 
 .Row
 {
   display: flex;
   height: 48px;
+  width: 480px;
+  background-color: blueviolet;
+}
+
+.Col
+{
+  height: 48px;
+  width: 48px;
+  background-color: greenyellow;
 }
