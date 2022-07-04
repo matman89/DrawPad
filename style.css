@@ -95,7 +95,7 @@ Button
   flex-direction: column;
 }
 
-.Row
+.Row10
 {
   display: flex;
   height: 48px;
@@ -103,9 +103,39 @@ Button
   background-color: blueviolet;
 }
 
-.Col
+.Col10
 {
   height: 48px;
   width: 48px;
+  background-color: greenyellow;
+}
+
+.Row20
+{
+  display: flex;
+  height: 24px;
+  width: 480px;
+  background-color: blueviolet;
+}
+
+.Col20
+{
+  height: 24px;
+  width: 24px;
+  background-color: greenyellow;
+}
+
+.Row30
+{
+  display: flex;
+  height: 16px;
+  width: 480px;
+  background-color: blueviolet;
+}
+
+.Col30
+{
+  height: 16px;
+  width: 16px;
   background-color: greenyellow;
 }
