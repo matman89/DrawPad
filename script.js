@@ -12,9 +12,16 @@ function TenxTen()
         {
         const rcontainer = document.querySelector(`#r${i}.Row10`);
         const Col10 = document.createElement('div');
+        Col10.id = `c` + (j+(i*10))
         Col10.classList.add('Col10');
-        rcontainer.appendChild(Col10)
-        } 
+        rcontainer.appendChild(Col10);
+        const cell = document.querySelector(`#c${j+(i*10)}.Col10`);
+        cell.addEventListener('mouseover', function()
+            {
+                cell.setAttribute('style', 'background: black;');    
+            })
+ 
+        }
     }
 }
 
@@ -33,9 +40,16 @@ function TwentyxTwenty()
         {
         const rcontainer = document.querySelector(`#r${i}.Row20`);
         const Col20 = document.createElement('div');
+        Col20.id = `c` + (j+(i*20))
         Col20.classList.add('Col20');
-        rcontainer.appendChild(Col20)
-        } 
+        rcontainer.appendChild(Col20);
+        const cell = document.querySelector(`#c${j+(i*20)}.Col20`);
+        cell.addEventListener('mouseover', function()
+            {
+                cell.setAttribute('style', 'background: black;');    
+            })
+ 
+        }
     }
 }
 
@@ -53,13 +67,13 @@ function ThirtyxThirty()
         {
         const rcontainer = document.querySelector(`#r${i}.Row30`);
         const Col30 = document.createElement('div');
-        Col30.id = 'c' + j;
+        Col30.id = `c` + (j+(i*30))
         Col30.classList.add('Col30');
         rcontainer.appendChild(Col30);
-        const cell = document.querySelector(`#c${j}.Col30`);
+        const cell = document.querySelector(`#c${j+(i*30)}.Col30`);
         cell.addEventListener('mouseover', function()
             {
-                cell.setAttribute('style', 'color: blue; background: black;');    
+                cell.setAttribute('style', 'background: black;');    
             })
  
         }

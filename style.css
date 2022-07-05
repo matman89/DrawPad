@@ -4,7 +4,7 @@
 
 body
 {
-  background-color: rgb(64, 252, 236);
+background-color: peachpuff;
 }
 
 #Master
@@ -175,12 +175,8 @@ Button
   background-color: firebrick;
 }
 
-#r1 .Row30
-{
-  background-color: black;
-}
 
-.active
+.Row30.Col30
 {
-  background-color: black;
+  background-color: blue;
 }
