@@ -154,3 +154,33 @@ Button
 {
   border: 1px solid gray;
 }
+
+.revealBlack
+{
+  background-color: black;
+}
+
+.revealWhite
+{
+  background-color: White;
+}
+
+.revealCool
+{
+  background-color: aquamarine;
+}
+
+.revealWarm
+{
+  background-color: firebrick;
+}
+
+#r1 .Row30
+{
+  background-color: black;
+}
+
+.active
+{
+  background-color: black;
+}

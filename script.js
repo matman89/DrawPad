@@ -53,9 +53,16 @@ function ThirtyxThirty()
         {
         const rcontainer = document.querySelector(`#r${i}.Row30`);
         const Col30 = document.createElement('div');
+        Col30.id = 'c' + j;
         Col30.classList.add('Col30');
-        rcontainer.appendChild(Col30)
-        } 
+        rcontainer.appendChild(Col30);
+        const cell = document.querySelector(`#c${j}.Col30`);
+        cell.addEventListener('mouseover', function()
+            {
+                cell.setAttribute('style', 'color: blue; background: black;');    
+            })
+ 
+        }
     }
 }
 
