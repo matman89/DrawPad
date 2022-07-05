@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 
-*
-{
-  border: solid black 1px;
-}
 
 body
 {
@@ -107,7 +103,7 @@ Button
 {
   height: 48px;
   width: 48px;
-  background-color: greenyellow;
+  background-color: whitesmoke;
 }
 
 .Row20
@@ -115,14 +111,14 @@ Button
   display: flex;
   height: 24px;
   width: 480px;
-  background-color: blueviolet;
+  background-color: whitesmoke;
 }
 
 .Col20
 {
   height: 24px;
   width: 24px;
-  background-color: greenyellow;
+  background-color: whitesmoke;
 }
 
 .Row30
@@ -130,12 +126,31 @@ Button
   display: flex;
   height: 16px;
   width: 480px;
-  background-color: blueviolet;
+  background-color: whitesmoke;
 }
 
 .Col30
 {
   height: 16px;
   width: 16px;
-  background-color: greenyellow;
+  background-color: whitesmoke;
+}
+
+.Row10,
+.Col10
+{
+  border: 1px solid gray;
+}
+
+
+.Row20,
+.Col20
+{
+  border: 1px solid gray;
+}
+
+.Row30,
+.Col30
+{
+  border: 1px solid gray;
 }

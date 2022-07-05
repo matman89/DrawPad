@@ -1,5 +1,6 @@
 function TenxTen()
 {
+    //document.getElementById('#Box4').innerHTML = '';
     for(i=0; i < 10; i++) 
     {
     const container = document.querySelector('#Box4');
@@ -20,6 +21,7 @@ function TenxTen()
 
 function TwentyxTwenty()
 {
+    //document.getElementById('#Box4').innerHTML = '';
     for(i=0; i < 20; i++) 
     {
     const container = document.querySelector('#Box4');
@@ -39,6 +41,7 @@ function TwentyxTwenty()
 
 function ThirtyxThirty()
 {
+    //document.getElementById('#Box4').innerHTML = '';
     for(i=0; i < 30; i++) 
     {
     const container = document.querySelector('#Box4');
@@ -59,3 +62,31 @@ function ThirtyxThirty()
 ThirtyxThirty()
 
 
+//const btn10x10 = document.querySelector('#a10x10');
+//const btn20x20 = document.querySelector('#b20x20');
+//const btn30x30 = document.querySelector('#c30x30');
+
+//btn10x10.addEventListener('click', TenxTen());
+//btn20x20.addEventListener('click', TwentyxTwenty());
+
+
+// Enables Button to Change Grid Size to 10x10
+document.getElementById("a10x10").addEventListener("click", function()
+{
+    jQuery('#Box4').html('');
+    TenxTen()
+});
+
+// Enables Button to Change Grid Size to 20x20
+document.getElementById("b20x20").addEventListener("click", function()
+{
+    jQuery('#Box4').html('');
+    TwentyxTwenty()
+});
+
+// Enables Button to Change Grid Size to 30x30
+document.getElementById("c30x30").addEventListener("click", function()
+{
+    jQuery('#Box4').html('');
+    ThirtyxThirty()
+});
